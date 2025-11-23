@@ -1,4 +1,4 @@
-# CmlLib.Core.AOTCompatible
+# <img width="32" height="32" alt="image" src="https://github.com/user-attachments/assets/ee83cf49-57c2-447c-b3e3-c3eea3586d1a" /> CmlLib.Core.AOTCompatible
 An AOT-Compatible version of CmlLib.Core.
 **P.S.** This is susceptible to issues, I have not gone through the entire project and made sure of everything being AOT Compatible. **This is NOT an official CmlLib project.**
 
