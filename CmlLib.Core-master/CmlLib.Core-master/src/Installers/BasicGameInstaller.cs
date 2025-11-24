@@ -70,7 +70,7 @@ namespace CmlLib.Core.Installers
             {
                 FireFileProgress(queue.Count, completedFiles, file.Name, InstallerEventType.Downloading); // Use InstallerEventType.Download
                 Console.WriteLine($"[GameInstaller DEBUG] Starting download for: {file.Name}");
-
+                    
                 // Ensure target directory exists
                 var dir = Path.GetDirectoryName(file.Path);
                 if (!string.IsNullOrEmpty(dir))
