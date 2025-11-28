@@ -28,7 +28,6 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="CmlLib.Core.Commons" Version="4.0.0" />
 		<PackageReference Include="LZMA-SDK" Version="19.0.0" />
 		<PackageReference Include="SharpZipLib" Version="1.4.2" />
 		<PackageReference Include="System.Text.Json" Version="8.0.5" />
@@ -58,5 +57,9 @@
 		<AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
 			<_Parameter1>CmlLib.Core.Test</_Parameter1>
 		</AssemblyAttribute>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\..\CmlLib.Core.Commons-main\CmlLib.Core.Commons-main\CmlLib.Core.Commons.csproj" />
 	</ItemGroup>
 </Project>
